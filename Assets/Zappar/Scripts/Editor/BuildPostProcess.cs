@@ -13,7 +13,7 @@ public class BuildPostProcessor
         if (target != BuildTarget.WebGL)
             return;
 
-        string path = Path.Combine(targetPath, "Build/UnityLoader.js");
+        string path = Path.Combine(targetPath, "Build/1424 WebArBC.loader.js");
         string text = File.ReadAllText(path);
         text = text.Replace("UnityLoader.SystemInfo.mobile", "false");
         File.WriteAllText(path, text);
