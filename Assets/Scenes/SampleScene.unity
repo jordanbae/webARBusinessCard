@@ -403,12 +403,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37677d5322c344b439d86a6630bd7a6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anchorOrigin: {fileID: 0}
+  anchorOrigin: {fileID: 18654501}
   useFrontFacingCamera: 0
   cameraAttitudeFromGyro: 0
   mirrorRearCameras: 0
-  mirrorUserCameras: 1
-  EditorCamera: HD Pro Webcam C920
+  mirrorUserCameras: 0
+  EditorCamera: USB Camera
 --- !u!81 &592558103
 AudioListener:
   m_ObjectHideFlags: 0

@@ -17,23 +17,23 @@ public class CardManager : MonoBehaviour
         myName.sprite = card.GetNamePic();
     }
 
-    public void GoToWebsite() => Application.OpenURL($"{card.GetWebsite()}");
+    public void GoToWebsite() => Application.OpenURL("https://www.yvr-group.com/");
 
     public void GoToPhone()
     {
 #if UNITY_IOS
-        Application.OpenURL($"tel://{card.GetPhoneNumber()}");
+        Application.OpenURL("tel://0827900218");
 #else
-        Application.OpenURL($"tel:{card.GetPhoneNumber()}");
+        Application.OpenURL("tel://0827900218");
 #endif
     }
 
     public void GoToMail()
     {
 #if UNITY_IOS
-        Application.OpenURL($"mailto://{card.GetEmail()}");
+        Application.OpenURL("mailto://yvr.studio.official@gmail.com");
 #else
-        Application.OpenURL($"mailto:{card.GetEmail()}");
+        Application.OpenURL("mailto:yvr.studio.official@gmail.com");
 #endif
     }
 }
