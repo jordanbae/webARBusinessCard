@@ -132,8 +132,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 18654499}
-  - component: {fileID: 18654500}
   - component: {fileID: 18654501}
+  - component: {fileID: 18654500}
   - component: {fileID: 18654498}
   m_Layer: 0
   m_Name: Zappar Image Tracker(Clone)
@@ -1435,8 +1435,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1149727966188558456, guid: 452e7d601f61b8a4a94a35856563badb, type: 3}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+      - m_Target: {fileID: 1055309219}
+        m_TargetAssemblyTypeName: CardManager, Assembly-CSharp
         m_MethodName: GoToWebsite
         m_Mode: 1
         m_Arguments:
